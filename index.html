@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)file:///D:/SPPG%20WANGISAGARA%202%20CIKAWAO/kasppg-desktop-app/index.html -->
+<html lang="id" class="h-full bg-slate-50 dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASPPG Workspace Dashboard - SPPG Bandung Majalaya Wangisagara 2</title>
+    <!-- Tailwind CSS -->
+    <script src="./index_files/saved_resource"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="./index_files/all.min.css">
+    <!-- Google Font Inter -->
+    <link href="./index_files/css2" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        sppg: {
+                            blue: '#1e3a8a',
+                            gold: '#d97706',
+                            emerald: '#059669',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.bottom-5{bottom:1.25rem}.left-3\.5{left:0.875rem}.right-0{right:0px}.right-5{right:1.25rem}.top-0{top:0px}.top-1\/2{top:50%}.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-1{margin-top:0.25rem;margin-bottom:0.25rem}.my-auto{margin-top:auto;margin-bottom:auto}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.me-0\.5{margin-inline-end:0.125rem}.me-1{margin-inline-end:0.25rem}.me-1\.5{margin-inline-end:0.375rem}.me-2{margin-inline-end:0.5rem}.me-2\.5{margin-inline-end:0.625rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-auto{margin-top:auto}.line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-64{height:16rem}.h-8{height:2rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.min-h-full{min-height:100%}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-2{width:0.5rem}.w-44{width:11rem}.w-56{width:14rem}.w-64{width:16rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-x-1 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.25rem * var(--tw-space-x-reverse));margin-left:calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))}.self-start{align-self:flex-start}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-t-2{border-top-width:2px}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-blue-800{--tw-border-opacity:1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.border-blue-800\/80{border-color:rgb(30 64 175 / 0.8)}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-emerald-500{--tw-border-opacity:1;border-color:rgb(16 185 129 / var(--tw-border-opacity, 1))}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-emerald-800{--tw-border-opacity:1;border-color:rgb(6 95 70 / var(--tw-border-opacity, 1))}.border-emerald-800\/80{border-color:rgb(6 95 70 / 0.8)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/10{background-color:rgb(16 185 129 / 0.1)}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-emerald-700{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-800\/80{background-color:rgb(30 41 59 / 0.8)}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/10{background-color:rgb(255 255 255 / 0.1)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.from-blue-900{--tw-gradient-from:#1e3a8a var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 58 138 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-800{--tw-gradient-from:#065f46 var(--tw-gradient-from-position);--tw-gradient-to:rgb(6 95 70 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-900{--tw-gradient-from:#064e3b var(--tw-gradient-from-position);--tw-gradient-to:rgb(6 78 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgb(15 23 42 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-indigo-950{--tw-gradient-to:rgb(30 27 75 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #1e1b4b var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-indigo-950{--tw-gradient-to:#1e1b4b var(--tw-gradient-to-position)}.to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-teal-900{--tw-gradient-to:#134e4a var(--tw-gradient-to-position)}.to-teal-950{--tw-gradient-to:#042f2e var(--tw-gradient-to-position)}.p-1{padding:0.25rem}.p-1\.5{padding:0.375rem}.p-2{padding:0.5rem}.p-2\.5{padding:0.625rem}.p-3{padding:0.75rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-1{padding-bottom:0.25rem}.pl-10{padding-left:2.5rem}.pr-4{padding-right:1rem}.pt-2{padding-top:0.5rem}.pt-3{padding-top:0.75rem}.pt-6{padding-top:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.font-sans{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-\[10px\]{font-size:10px}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.opacity-80{opacity:0.8}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-emerald-500\/20{--tw-shadow-color:rgb(16 185 129 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.hover\:bg-emerald-100:hover{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-500:hover{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:text-amber-900:hover{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.hover\:text-emerald-600:hover{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.hover\:text-slate-900:hover{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-amber-500:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.hover\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-emerald-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(16 185 129 / var(--tw-ring-opacity, 1))}.group:hover .group-hover\:bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.group:hover .group-hover\:text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:opacity-100{opacity:1}.dark\:border-amber-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(146 64 14 / var(--tw-border-opacity, 1))}.dark\:border-emerald-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(6 95 70 / var(--tw-border-opacity, 1))}.dark\:border-slate-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.dark\:bg-amber-950\/30:is(.dark *){background-color:rgb(69 26 3 / 0.3)}.dark\:bg-emerald-900\/50:is(.dark *){background-color:rgb(6 78 59 / 0.5)}.dark\:bg-emerald-900\/60:is(.dark *){background-color:rgb(6 78 59 / 0.6)}.dark\:bg-emerald-950\/40:is(.dark *){background-color:rgb(2 44 34 / 0.4)}.dark\:bg-emerald-950\/50:is(.dark *){background-color:rgb(2 44 34 / 0.5)}.dark\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-700\/50:is(.dark *){background-color:rgb(51 65 85 / 0.5)}.dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900\/50:is(.dark *){background-color:rgb(15 23 42 / 0.5)}.dark\:bg-slate-900\/60:is(.dark *){background-color:rgb(15 23 42 / 0.6)}.dark\:bg-slate-900\/80:is(.dark *){background-color:rgb(15 23 42 / 0.8)}.dark\:bg-emerald-950\/60:is(.dark *){background-color:rgb(2 44 34 / 0.6)}.dark\:text-amber-300:is(.dark *){--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.dark\:text-emerald-300:is(.dark *){--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.dark\:text-emerald-400:is(.dark *){--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.dark\:text-red-400:is(.dark *){--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.dark\:text-slate-100:is(.dark *){--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.dark\:text-slate-200:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.dark\:text-slate-300:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.dark\:text-slate-500:is(.dark *){--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-slate-600:is(.dark *){--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.dark\:hover\:bg-emerald-900\/60:hover:is(.dark *){background-color:rgb(6 78 59 / 0.6)}.dark\:hover\:bg-red-950\/30:hover:is(.dark *){background-color:rgb(69 10 10 / 0.3)}.dark\:hover\:bg-slate-600:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.dark\:hover\:bg-slate-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:hover\:bg-slate-700\/50:hover:is(.dark *){background-color:rgb(51 65 85 / 0.5)}.dark\:hover\:text-amber-200:hover:is(.dark *){--tw-text-opacity:1;color:rgb(253 230 138 / var(--tw-text-opacity, 1))}.dark\:hover\:text-slate-200:hover:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white:hover:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:col-span-2{grid-column:span 2 / span 2}.sm\:block{display:block}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:p-4{padding:1rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:inline{display:inline}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:self-auto{align-self:auto}.md\:border-t-0{border-top-width:0px}.md\:pb-0{padding-bottom:0px}.md\:pt-0{padding-top:0px}}@media (min-width: 1024px){.lg\:inline{display:inline}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (min-width: 1280px){.xl\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.bottom-5{bottom:1.25rem}.left-3\.5{left:0.875rem}.right-0{right:0px}.right-5{right:1.25rem}.top-0{top:0px}.top-1\/2{top:50%}.z-10{z-index:10}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-1{margin-top:0.25rem;margin-bottom:0.25rem}.my-auto{margin-top:auto;margin-bottom:auto}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.me-0\.5{margin-inline-end:0.125rem}.me-1{margin-inline-end:0.25rem}.me-2{margin-inline-end:0.5rem}.me-2\.5{margin-inline-end:0.625rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.mb-1{margin-bottom:0.25rem}.me-1\.5{margin-inline-end:0.375rem}.mt-6{margin-top:1.5rem}.line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-64{height:16rem}.h-8{height:2rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.min-h-full{min-height:100%}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-2{width:0.5rem}.w-44{width:11rem}.w-56{width:14rem}.w-64{width:16rem}.w-8{width:2rem}.w-full{width:100%}.w-px{width:1px}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-1\.5{gap:0.375rem}.gap-3{gap:0.75rem}.space-x-1 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.25rem * var(--tw-space-x-reverse));margin-left:calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.self-start{align-self:flex-start}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-t-2{border-top-width:2px}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138 / var(--tw-border-opacity, 1))}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-blue-800{--tw-border-opacity:1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.border-blue-800\/80{border-color:rgb(30 64 175 / 0.8)}.border-emerald-500{--tw-border-opacity:1;border-color:rgb(16 185 129 / var(--tw-border-opacity, 1))}.border-emerald-800{--tw-border-opacity:1;border-color:rgb(6 95 70 / var(--tw-border-opacity, 1))}.border-emerald-800\/80{border-color:rgb(6 95 70 / 0.8)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/10{background-color:rgb(16 185 129 / 0.1)}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-700{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.bg-slate-800\/80{background-color:rgb(30 41 59 / 0.8)}.bg-slate-900\/60{background-color:rgb(15 23 42 / 0.6)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/10{background-color:rgb(255 255 255 / 0.1)}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.bg-emerald-700{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.from-emerald-600{--tw-gradient-from:#059669 var(--tw-gradient-from-position);--tw-gradient-to:rgb(5 150 105 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-800{--tw-gradient-from:#065f46 var(--tw-gradient-from-position);--tw-gradient-to:rgb(6 95 70 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgb(15 23 42 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-900{--tw-gradient-from:#1e3a8a var(--tw-gradient-from-position);--tw-gradient-to:rgb(30 58 138 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-emerald-900{--tw-gradient-from:#064e3b var(--tw-gradient-from-position);--tw-gradient-to:rgb(6 78 59 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-indigo-950{--tw-gradient-to:rgb(30 27 75 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #1e1b4b var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-slate-900{--tw-gradient-to:#0f172a var(--tw-gradient-to-position)}.to-teal-500{--tw-gradient-to:#14b8a6 var(--tw-gradient-to-position)}.to-teal-900{--tw-gradient-to:#134e4a var(--tw-gradient-to-position)}.to-indigo-950{--tw-gradient-to:#1e1b4b var(--tw-gradient-to-position)}.to-teal-950{--tw-gradient-to:#042f2e var(--tw-gradient-to-position)}.p-1{padding:0.25rem}.p-1\.5{padding:0.375rem}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-2\.5{padding:0.625rem}.p-5{padding:1.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-1{padding-bottom:0.25rem}.pl-10{padding-left:2.5rem}.pr-4{padding-right:1rem}.pt-2{padding-top:0.5rem}.pt-3{padding-top:0.75rem}.pt-6{padding-top:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.font-sans{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\[10px\]{font-size:10px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.opacity-80{opacity:0.8}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-emerald-500\/20{--tw-shadow-color:rgb(16 185 129 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.hover\:bg-emerald-100:hover{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-500:hover{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity:1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-200:hover{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/10:hover{background-color:rgb(255 255 255 / 0.1)}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:text-amber-500:hover{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.hover\:text-emerald-600:hover{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.hover\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.hover\:text-slate-700:hover{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.hover\:text-slate-900:hover{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:text-amber-900:hover{--tw-text-opacity:1;color:rgb(120 53 15 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:shadow-md:hover{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-emerald-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(16 185 129 / var(--tw-ring-opacity, 1))}.group:hover .group-hover\:bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.group:hover .group-hover\:text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:opacity-100{opacity:1}.dark\:border-amber-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(146 64 14 / var(--tw-border-opacity, 1))}.dark\:border-emerald-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(6 95 70 / var(--tw-border-opacity, 1))}.dark\:border-slate-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.dark\:bg-amber-950\/30:is(.dark *){background-color:rgb(69 26 3 / 0.3)}.dark\:bg-emerald-900\/60:is(.dark *){background-color:rgb(6 78 59 / 0.6)}.dark\:bg-emerald-950\/40:is(.dark *){background-color:rgb(2 44 34 / 0.4)}.dark\:bg-emerald-950\/50:is(.dark *){background-color:rgb(2 44 34 / 0.5)}.dark\:bg-emerald-950\/60:is(.dark *){background-color:rgb(2 44 34 / 0.6)}.dark\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900\/50:is(.dark *){background-color:rgb(15 23 42 / 0.5)}.dark\:bg-slate-900\/60:is(.dark *){background-color:rgb(15 23 42 / 0.6)}.dark\:bg-emerald-900\/50:is(.dark *){background-color:rgb(6 78 59 / 0.5)}.dark\:bg-slate-700\/50:is(.dark *){background-color:rgb(51 65 85 / 0.5)}.dark\:bg-slate-900\/80:is(.dark *){background-color:rgb(15 23 42 / 0.8)}.dark\:text-amber-300:is(.dark *){--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.dark\:text-emerald-300:is(.dark *){--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.dark\:text-emerald-400:is(.dark *){--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.dark\:text-red-400:is(.dark *){--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.dark\:text-slate-100:is(.dark *){--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.dark\:text-slate-200:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.dark\:text-slate-300:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.dark\:text-slate-500:is(.dark *){--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.dark\:text-slate-600:is(.dark *){--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:bg-emerald-900\/60:hover:is(.dark *){background-color:rgb(6 78 59 / 0.6)}.dark\:hover\:bg-red-950\/30:hover:is(.dark *){background-color:rgb(69 10 10 / 0.3)}.dark\:hover\:bg-slate-600:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(71 85 105 / var(--tw-bg-opacity, 1))}.dark\:hover\:bg-slate-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:hover\:bg-slate-700\/50:hover:is(.dark *){background-color:rgb(51 65 85 / 0.5)}.dark\:hover\:text-slate-200:hover:is(.dark *){--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.dark\:hover\:text-white:hover:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:text-amber-200:hover:is(.dark *){--tw-text-opacity:1;color:rgb(253 230 138 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:col-span-2{grid-column:span 2 / span 2}.sm\:block{display:block}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:p-4{padding:1rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:inline{display:inline}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}.md\:self-auto{align-self:auto}.md\:border-t-0{border-top-width:0px}.md\:pb-0{padding-bottom:0px}.md\:pt-0{padding-top:0px}}@media (min-width: 1024px){.lg\:inline{display:inline}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (min-width: 1280px){.xl\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}</style></head>
+<body class="h-full font-sans text-slate-800 dark:text-slate-100 dark:bg-slate-900 transition-colors duration-200">
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <!-- MAIN APP WRAPPER -->
+    <div id="app" class="min-h-full flex flex-col">
+
+        <!-- TOP NAVBAR -->
+        <header class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 sticky top-0 z-30 shadow-sm transition-colors">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <!-- Brand & Logo -->
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white font-bold text-xl shadow-md shadow-emerald-500/20">
+                            <i class="fa-solid me-0.5 fa-building-circle-check"></i>
+                        </div>
+                        <div>
+                            <div class="flex items-center space-x-2">
+                                <span class="font-bold text-lg text-slate-900 dark:text-white leading-none">KASPPG Workspace</span>
+                                <span class="px-2 py-0.5 text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300 rounded-full">ESZPLG27</span>
+                            </div>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5 hidden sm:block">SPPG Bandung Majalaya Wangisagara 2</p>
+                        </div>
+                    </div>
+
+                    <!-- Actions Right -->
+                    <div class="flex items-center space-x-3">
+                        <!-- Dark Mode Switcher -->
+                        <button id="themeToggle" class="p-2 rounded-lg text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+                            <i id="themeIcon" class="fa-solid fa-sun text-lg text-amber-400"></i>
+                        </button>
+
+                        <!-- Button Open Profile / Identitas SPPG -->
+                        <button onclick="openProfileModal()" class="flex items-center space-x-2 px-3.5 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/50 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-sm font-medium transition shadow-sm">
+                            <i class="fa-solid fa-id-card text-emerald-600 dark:text-emerald-400"></i>
+                            <span class="hidden md:inline">Profil &amp; Identitas SPPG</span>
+                        </button>
+
+                        <!-- User Profile Dropdown Button -->
+                        <div class="relative" id="userMenuContainer">
+                            <button onclick="toggleUserDropdown()" class="flex items-center space-x-2 p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition">
+                                <div class="w-8 h-8 rounded-full bg-slate-700 text-white flex items-center justify-center font-bold text-xs">
+                                    TH
+                                </div>
+                                <span id="navUserName" class="text-sm font-semibold text-slate-700 dark:text-slate-200 hidden lg:inline">Taufik H.</span>
+                                <i class="fa-solid fa-chevron-down text-xs text-slate-400"></i>
+                            </button>
+
+                            <!-- User Dropdown Menu -->
+                            <div id="userDropdown" class="absolute right-0 mt-2 w-56 bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-200 dark:border-slate-700 py-1 z-50">
+                                <div class="px-4 py-2.5 border-b border-slate-100 dark:border-slate-700">
+                                    <p class="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider">Login Sebagai</p>
+                                    <p class="text-sm font-bold text-slate-800 dark:text-slate-100 truncate" id="dropdownName">Taufik Hidayatulloh</p>
+                                    <p class="text-xs text-slate-500 dark:text-slate-400 truncate" id="dropdownEmail">wangisagarasppg@gmail.com</p>
+                                </div>
+                                <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openProfileModal(); toggleUserDropdown(); return false;" class="block px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700/50 flex items-center">
+                                    <i class="fa-solid fa-building me-2.5 text-slate-400"></i> Profil &amp; Identitas SPPG
+                                </a>
+                                <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openModal('modalPetugas'); toggleUserDropdown(); return false;" class="block px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700/50 flex items-center">
+                                    <i class="fa-solid fa-user-shield me-2.5 text-slate-400"></i> Menu Petugas
+                                </a>
+                                <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openModal('modalKerjasama'); toggleUserDropdown(); return false;" class="block px-4 py-2 text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700/50 flex items-center">
+                                    <i class="fa-solid fa-handshake me-2.5 text-slate-400"></i> Menu Kerjasama
+                                </a>
+                                <div class="border-t border-slate-100 dark:border-slate-700 my-1"></div>
+                                <button onclick="handleLogout()" class="w-full text-left px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 flex items-center">
+                                    <i class="fa-solid fa-right-from-bracket me-2.5"></i> Keluar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN DASHBOARD CONTENT -->
+        <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col gap-6">
+
+            <!-- BANNER GREETING & MOTIVATION -->
+            <div class="relative overflow-hidden bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-2xl p-6 sm:p-8 shadow-xl border border-slate-800">
+                <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                    <div>
+                        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-medium mb-3 border border-emerald-500/30">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            <span id="greetingTime">Selamat Siang</span>, Kasatpel SPPG
+                        </div>
+                        <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+                            SPPG Bandung Majalaya Wangisagara 2
+                        </h1>
+                        <p class="mt-2 text-slate-300 text-sm max-w-2xl leading-relaxed" id="motivationQuote">"Setiap porsi makanan sehat yang disalurkan adalah investasi masa depan generasi bangsa."</p>
+                    </div>
+                    
+                    <div class="flex flex-wrap items-center gap-2 bg-slate-800/80 p-3 rounded-xl border border-slate-700 backdrop-blur-sm self-start md:self-auto">
+                        <div class="px-3 py-1.5 text-center">
+                            <span class="block text-xs text-slate-400">ID SPPG</span>
+                            <span class="font-bold text-emerald-400 text-sm">ESZPLG27</span>
+                        </div>
+                        <div class="h-8 w-px bg-slate-700"></div>
+                        <div class="px-3 py-1.5 text-center">
+                            <span class="block text-xs text-slate-400">Status</span>
+                            <span class="font-bold text-xs bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded">Beroperasi</span>
+                        </div>
+                        <div class="h-8 w-px bg-slate-700"></div>
+                        <button onclick="openProfileModal()" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-semibold transition shadow-md">
+                            <i class="fa-solid fa-pen-to-square me-1"></i> Edit Profil
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SEARCH, FILTERS & CONTROLS FOR SITES -->
+            <div class="flex flex-col md:flex-row gap-4 items-stretch md:items-center justify-between bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                <!-- Search Box -->
+                <div class="relative flex-1">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input type="text" id="searchInput" oninput="renderSites()" placeholder="Cari portal, aplikasi, atau layanan..." class="w-full pl-10 pr-4 py-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 text-slate-800 dark:text-slate-100">
+                </div>
+
+                <!-- Category Filters -->
+                <div class="flex items-center space-x-2 overflow-x-auto custom-scrollbar pb-1 md:pb-0">
+                    <button onclick="filterCategory('ALL')" class="category-btn px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition bg-emerald-600 text-white active">
+                        Semua Portal
+                    </button>
+                    <button onclick="filterCategory('UTAMA')" class="category-btn px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap hover:bg-slate-200 dark:hover:bg-slate-600 transition bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                        Utama &amp; Keuangan
+                    </button>
+                    <button onclick="filterCategory('SIPGN')" class="category-btn px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap hover:bg-slate-200 dark:hover:bg-slate-600 transition bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                        Sistem SIPGN
+                    </button>
+                    <button onclick="filterCategory('SDM')" class="category-btn px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-600 transition">
+                        SDM &amp; Operasional
+                    </button>
+                </div>
+
+                <!-- Add Site & Data Actions -->
+                <div class="flex items-center space-x-2 border-t md:border-t-0 pt-3 md:pt-0 border-slate-100 dark:border-slate-700">
+                    <button onclick="openAddSiteModal()" class="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition shadow-sm">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>Tambah Link</span>
+                    </button>
+
+                    <div class="relative">
+                        <button onclick="toggleDataDropdown()" class="p-2 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-600 transition">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </button>
+                        <div id="dataDropdown" class="hidden absolute right-0 mt-2 w-44 bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-200 dark:border-slate-700 py-1 z-40 text-xs">
+                            <button onclick="exportData()" class="w-full text-left px-3 py-2 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center">
+                                <i class="fa-solid fa-download me-2 text-emerald-600"></i> Ekspor JSON
+                            </button>
+                            <label class="w-full text-left px-3 py-2 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 flex items-center cursor-pointer">
+                                <i class="fa-solid fa-upload me-2 text-blue-600"></i> Impor JSON
+                                <input type="file" id="importFile" accept=".json" onchange="importData(event)" class="hidden">
+                            </label>
+                            <button onclick="resetData()" class="w-full text-left px-3 py-2 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 flex items-center border-t border-slate-100 dark:border-slate-700">
+                                <i class="fa-solid fa-rotate-left me-2"></i> Reset Default
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SITES GRID -->
+            <div>
+                <div class="flex items-center justify-between mb-3">
+                    <h2 class="text-sm font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center gap-2">
+                        <i class="fa-solid fa-grip text-emerald-600"></i> Portal &amp; Web App Utama BGN
+                        <span id="siteCountBadge" class="bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 px-2 py-0.5 rounded-full text-xs">13</span>
+                    </h2>
+                </div>
+                <div id="sitesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">BNIDirect</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">UTAMA</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('1')" class="text-xs p-1 text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Layanan internet banking transaksi keuangan SPPG BNI Direct.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://bnidirect.bni.co.id/" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('1')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('1')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-chart-pie"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Dashboard BGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">UTAMA</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('2')" class="text-xs p-1 text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">BNI Dashboard
+</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://dashboardbgn.bni.co.id/login?callbackUrl=%2Fdownload-file" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('2')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('2')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Webmail BGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">UTAMA</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('4')" class="text-xs p-1 text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Email kedinasan resmi personel Badan Gizi Nasional.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://webmail.bgn.go.id/" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('4')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('4')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-diagram-project"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Portal SIPGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SIPGN</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('7')" class="text-xs p-1 text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Sistem Informasi Pemantauan Gizi Nasional Terpadu.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://portal-sipgn.bgn.go.id/login?redirect=/dashboard" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('7')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('7')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-users-gear"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Biro SDMO BGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SDM</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('3')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Manajemen Sumber Daya Manusia dan Organisasi BGN.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://birosdmo.bgn.go.id/login" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('3')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('3')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-id-card-clip"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">MyASN BKN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SDM</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('5')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Layanan kepegawaian ASN BKN terpadu.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://myasn.bkn.go.id/" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('5')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('5')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-file-signature"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">SIPGN Sign</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SIPGN</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('6')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Layanan Tanda Tangan Digital (TTE) Dokumen SIPGN.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://sign.sipgn.go.id/" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('6')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('6')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-boxes-stacked"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">POP SIPGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SIPGN</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('8')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Pusat Operasional Pelayanan &amp; Distribusi Gizi.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://pop-sipgn.bgn.go.id/auth/login" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('8')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('8')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">MPM SIPGN</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SIPGN</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('9')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Monitoring &amp; Pemantauan Mutu SPPG.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://mpm-sipgn.bgn.go.id/laporan-operasional" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('9')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('9')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-user-nurse"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Manajemen Tenaga Kerja</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SDM</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('10')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Portal data relawan, koki, dan staf operasional SPPG.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://sipgn-siphr.bgn.go.id/manajemen-tenaga-kerja/attendance/online" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('10')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('10')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-video"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">Karegjabar </h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SDM</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('11')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Rapat koordinasi virtual Kanreg Jabar &amp; SPPG.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://karegjabar.id/ka-sppg/zoom" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('11')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('11')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-hand-holding-medical"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">SIPP BPJS TK</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SDM</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('12')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Sistem Informasi Pelaporan Peserta BPJS Ketenagakerjaan.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://sipp.bpjsketenagakerjaan.go.id/" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('12')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('12')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div><div class="bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">SIPSMO</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">SIPGN</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('13')" class="text-xs p-1 text-slate-300 dark:text-slate-600 hover:text-amber-500">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">Portal informasi publikasi program gizi nasional.</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="https://sipgn-sipsmo-web.bgn.go.id/Sign" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('13')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('13')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-4 mt-auto">
+            <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 dark:text-slate-400 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>© 2026 KASPPG Workspace - SPPG Bandung Majalaya Wangisagara 2 (ESZPLG27)</p>
+                <div class="flex items-center space-x-4">
+                    <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openProfileModal(); return false;" class="hover:underline text-emerald-600 dark:text-emerald-400">Identitas SPPG</a>
+                    <span>•</span>
+                    <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openModal('modalPetugas'); return false;" class="hover:underline">Data Petugas</a>
+                    <span>•</span>
+                    <a href="file:///D:/chrome%20download/kasppg_workspace_dashboard%20(1).html#" onclick="openModal('modalKerjasama'); return false;" class="hover:underline">Data Kerjasama</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- ==================== MODAL PROFIL MITRA & IDENTITAS SPPG (UTAMA) ==================== -->
+    <div id="modalProfile" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-3 sm:p-4 overflow-y-auto hidden">
+        <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden my-auto transform transition-all">
+            
+            <!-- Modal Header -->
+            <div class="px-6 py-4 bg-gradient-to-r from-emerald-800 to-teal-900 text-white flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-emerald-300 font-bold">
+                        <i class="fa-solid fa-id-card text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg leading-tight">Profil Mitra &amp; Identitas SPPG</h3>
+                        <p class="text-xs text-emerald-200">SPPG Bandung Majalaya Wangisagara 2 • ID: ESZPLG27</p>
+                    </div>
+                </div>
+                <button onclick="closeProfileModal()" class="text-white/80 hover:text-white p-1 rounded-lg hover:bg-white/10 transition">
+                    <i class="fa-solid fa-xmark text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Modal Sub-Header Tabs -->
+            <div class="bg-slate-100 dark:bg-slate-900/60 px-6 py-2 border-b border-slate-200 dark:border-slate-700 flex overflow-x-auto custom-scrollbar gap-2">
+                <button onclick="switchProfileTab('sppg')" id="tabBtn-sppg" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-800 text-emerald-600 dark:text-emerald-400 shadow-sm active">
+                    <i class="fa-solid fa-building-flag"></i>
+                    <span>Identitas SPPG</span>
+                </button>
+                <button onclick="switchProfileTab('kasatpel')" id="tabBtn-kasatpel" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <span>Kasatpel / Ka SPPG</span>
+                </button>
+                <button onclick="switchProfileTab('instansi')" id="tabBtn-instansi" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <i class="fa-solid fa-handshake"></i>
+                    <span>Identitas Mitra</span>
+                </button>
+                <button onclick="switchProfileTab('yayasan')" id="tabBtn-yayasan" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <i class="fa-solid fa-landmark"></i>
+                    <span>Mitra Yayasan</span>
+                </button>
+                <button onclick="switchProfileTab('bank')" id="tabBtn-bank" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <span>Bank &amp; Rekening</span>
+                </button>
+                <button onclick="switchProfileTab('perwakilan')" id="tabBtn-perwakilan" class="profile-tab px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center space-x-2 whitespace-nowrap text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+                    <i class="fa-solid fa-user-gear"></i>
+                    <span>Perwakilan Yayasan</span>
+                </button>
+            </div>
+
+            <!-- Modal Content Body -->
+            <div class="p-6 overflow-y-auto flex-1 custom-scrollbar space-y-6">
+
+                <!-- TAB 1: IDENTITAS SPPG -->
+                <div id="tabContent-sppg" class="tab-pane">
+                    <div class="flex justify-between items-center mb-4">
+                        <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2">
+                            <i class="fa-solid fa-circle-info text-emerald-600"></i> Detail Identitas SPPG
+                        </h4>
+                        <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300">
+                            Status: <span id="disp-sppg-status">Beroperasi</span>
+                        </span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">ID SPPG</span>
+                            <div class="flex items-center justify-between mt-1">
+                                <span id="disp-sppg-id" class="font-mono font-bold text-slate-900 dark:text-white">ESZPLG27</span>
+                                <button onclick="copyToClipboard('disp-sppg-id', 'ID SPPG')" class="text-slate-400 hover:text-emerald-600"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Kode SPPG</span>
+                            <span id="disp-sppg-kode" class="font-mono font-bold text-slate-900 dark:text-white block mt-1">32.04.33.2002.10</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nama SPPG</span>
+                            <span id="disp-sppg-nama" class="font-bold text-slate-900 dark:text-white text-base block mt-1">SPPG Bandung Majalaya Wangisagara 2</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nomor BA. Verval</span>
+                            <span id="disp-sppg-ba-no" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">159/BA/VERVAL/JAKARTA/IX/2025</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Tanggal BA. Verval</span>
+                            <span id="disp-sppg-ba-tgl" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">20-09-2025</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Tanggal Operasional / Rencana</span>
+                            <span id="disp-sppg-tgl-ops" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">27-09-2025</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Jenis SPPG &amp; Bangunan</span>
+                            <span id="disp-sppg-jenis" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">SPPG Mitra / Rumah Toko (Ruko)</span>
+                        </div>
+
+                        <!-- Address Info -->
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2 space-y-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block font-semibold uppercase">Alamat Lengkap SPPG</span>
+                            <p id="disp-sppg-alamat" class="text-sm text-slate-800 dark:text-slate-200">Jl. Wangisagara, Cikawao, Kec. Majalaya, Kabupaten Bandung, Jawa Barat 40382</p>
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-xs border-t border-slate-200 dark:border-slate-700">
+                                <div><span class="text-slate-400">Kel/Desa:</span> <span id="disp-sppg-des" class="font-medium">WANGISAGARA</span></div>
+                                <div><span class="text-slate-400">Kecamatan:</span> <span id="disp-sppg-kec" class="font-medium">MAJALAYA</span></div>
+                                <div><span class="text-slate-400">Kab/Kota:</span> <span id="disp-sppg-kab" class="font-medium">BANDUNG</span></div>
+                                <div><span class="text-slate-400">Provinsi:</span> <span id="disp-sppg-prov" class="font-medium">JAWA BARAT</span></div>
+                            </div>
+                        </div>
+
+                        <!-- Coordinate GPS -->
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs text-slate-500 dark:text-slate-400">Koordinat Geografis (Latitude, Longitude)</span>
+                                <a id="linkGoogleMaps" href="https://maps.google.com/?q=-7.081384267510724,107.73945338102725" target="_blank" class="text-xs text-emerald-600 hover:underline flex items-center gap-1">
+                                    <i class="fa-solid fa-map-location-dot"></i> Buka Google Maps
+                                </a>
+                            </div>
+                            <p class="font-mono text-sm font-semibold text-slate-800 dark:text-slate-200 mt-1">
+                                Lat: <span id="disp-sppg-lat">-7.081384267510724</span> | Long: <span id="disp-sppg-long">107.73945338102725</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: KASATPEL / KA SPPG -->
+                <div id="tabContent-kasatpel" class="tab-pane hidden">
+                    <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2 mb-4">
+                        <i class="fa-solid fa-user-shield text-emerald-600"></i> Data Kasatpel / Kepala SPPG
+                    </h4>
+
+                    <div class="bg-emerald-50 dark:bg-emerald-950/40 p-4 rounded-xl border border-emerald-200 dark:border-emerald-800 mb-4 flex items-center space-x-4">
+                        <div class="w-14 h-14 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xl shadow">
+                            TH
+                        </div>
+                        <div>
+                            <h5 id="disp-kasatpel-nama" class="font-bold text-lg text-slate-900 dark:text-white">Taufik Hidayatulloh</h5>
+                            <p class="text-xs text-emerald-700 dark:text-emerald-300 font-medium">Kasatpel / Kepala SPPG Wangisagara 2</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Email Resmi</span>
+                            <span id="disp-kasatpel-email" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">wangisagarasppg@gmail.com</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">No. HP / WhatsApp</span>
+                            <span id="disp-kasatpel-hp" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">085135134430</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3 bg-amber-50 dark:bg-amber-950/30 rounded-xl border border-amber-200 dark:border-amber-800 text-xs text-amber-800 dark:text-amber-300 flex items-center justify-between">
+                        <span><i class="fa-solid fa-circle-exclamation me-1.5"></i> Kelengkapan data Kasatpel/Ka SPPG lainnya terdapat di menu petugas.</span>
+                        <button onclick="openModal('modalPetugas')" class="underline font-bold hover:text-amber-900 dark:hover:text-amber-200">Buka Menu Petugas</button>
+                    </div>
+                </div>
+
+                <!-- TAB 3: IDENTITAS MITRA / INSTANSI -->
+                <div id="tabContent-instansi" class="tab-pane hidden">
+                    <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2 mb-2">
+                        <i class="fa-solid fa-handshake-angle text-emerald-600"></i> Identitas Mitra / Instansi Pendukung
+                    </h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">
+                        Pihak lain yang bermitra dengan yayasan (aset &amp; operasional).
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Jenis Mitra / Instansi</span>
+                            <span id="disp-mitra-jenis" class="font-bold text-slate-900 dark:text-white block mt-1">Yayasan</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nama Mitra / Instansi</span>
+                            <span id="disp-mitra-nama" class="font-bold text-slate-900 dark:text-white block mt-1">Nutricare Sehat Nusantara</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nama Pimpinan</span>
+                            <span id="disp-mitra-pimpinan" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">Dedeh</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Kontak (HP &amp; Email)</span>
+                            <span id="disp-mitra-kontak" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">081221843881 | nutricaresehatnusantara@gmail.com</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block font-semibold mb-1">Bentuk Dukungan / Kepemilikan Aset Mitra</span>
+                            <div id="disp-mitra-aset" class="flex flex-wrap gap-1.5 mt-1">
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Lahan</span>
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Alat Masak</span>
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Bangunan</span>
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Alat Makan</span>
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Tenaga Kerja (Relawan)</span>
+                                <span class="px-2.5 py-1 bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300 rounded text-xs">Kendaraan</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block font-semibold">Alamat Instansi Mitra</span>
+                            <p id="disp-mitra-alamat" class="text-sm text-slate-800 dark:text-slate-200 mt-1">Jl.Cimincrang Rancasari Rt 003 Rw 004, Kel. CIMINCRANG, Kec. GEDEBAGE, KOTA BANDUNG, JAWA BARAT 40295</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: IDENTITAS MITRA YAYASAN -->
+                <div id="tabContent-yayasan" class="tab-pane hidden">
+                    <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2 mb-2">
+                        <i class="fa-solid fa-landmark text-emerald-600"></i> Identitas Mitra / Yayasan Utama (BGN)
+                    </h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">
+                        Yayasan resmi yang bermitra langsung dengan BGN.
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nama Mitra / Yayasan</span>
+                            <span id="disp-yayasan-nama" class="font-bold text-slate-900 dark:text-white text-base block mt-1">Yayasan Nutricare Sehat Nusantara</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">NPWP Yayasan</span>
+                            <div class="flex items-center justify-between mt-1">
+                                <span id="disp-yayasan-npwp" class="font-mono font-bold text-slate-900 dark:text-white">1000000003423280</span>
+                                <button onclick="copyToClipboard('disp-yayasan-npwp', 'NPWP')" class="text-slate-400 hover:text-emerald-600"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Telepon &amp; Email</span>
+                            <span id="disp-yayasan-kontak" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">081221843881 | nutricaresehatnusantara@gmail.com</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 md:col-span-2">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block font-semibold">Alamat Lengkap Yayasan</span>
+                            <p id="disp-yayasan-alamat" class="text-sm text-slate-800 dark:text-slate-200 mt-1">Jl. Cimincrang,. Rancasagatan, Rt. 003/ Rw. 004, Kelurahan Cimincrang, Kecamatan Gedebage, Kota Bandung 40294, Paseh, Kabupaten Bandung, Jawa Barat</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs text-slate-600 dark:text-slate-300 flex items-center justify-between">
+                        <span><i class="fa-solid fa-file-contract me-1.5"></i> Kelengkapan data yayasan lainnya dapat diakses di menu Kerjasama.</span>
+                        <button onclick="openModal('modalKerjasama')" class="text-emerald-600 dark:text-emerald-400 font-bold hover:underline">Buka Menu Kerjasama</button>
+                    </div>
+                </div>
+
+                <!-- TAB 5: BANK & REKENING -->
+                <div id="tabContent-bank" class="tab-pane hidden">
+                    <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2 mb-4">
+                        <i class="fa-solid fa-vault text-emerald-600"></i> Data Bank &amp; Virtual Account (VA)
+                    </h4>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Rekening Utama -->
+                        <div class="bg-gradient-to-br from-blue-900 to-indigo-950 text-white p-5 rounded-2xl shadow-md border border-blue-800 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-xs font-semibold text-blue-300 uppercase tracking-wider">Rekening Utama</span>
+                                <span id="disp-bank-nama" class="px-2 py-0.5 bg-blue-700 text-white font-bold rounded text-xs">BANK BNI</span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-blue-300 block">Nomor Rekening</span>
+                                <div class="flex items-center justify-between mt-0.5">
+                                    <span id="disp-bank-norek" class="font-mono text-xl font-extrabold tracking-wider">5268080020314600</span>
+                                    <button onclick="copyToClipboard('disp-bank-norek', 'Nomor Rekening')" class="text-blue-200 hover:text-white"><i class="fa-regular fa-copy text-lg"></i></button>
+                                </div>
+                            </div>
+                            <div class="border-t border-blue-800/80 pt-2">
+                                <span class="text-xs text-blue-300 block">Atas Nama</span>
+                                <span id="disp-bank-pemilik" class="font-semibold text-sm block truncate">yayasan Nutricare Sehat Nusantara</span>
+                            </div>
+                        </div>
+
+                        <!-- Virtual Account -->
+                        <div class="bg-gradient-to-br from-emerald-900 to-teal-950 text-white p-5 rounded-2xl shadow-md border border-emerald-800 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="text-xs font-semibold text-emerald-300 uppercase tracking-wider">Virtual Account (VA)</span>
+                                <span id="disp-va-bank" class="px-2 py-0.5 bg-emerald-700 text-white font-bold rounded text-xs">BANK BNI</span>
+                            </div>
+                            <div>
+                                <span class="text-xs text-emerald-300 block">Nomor Virtual Account</span>
+                                <div class="flex items-center justify-between mt-0.5">
+                                    <span id="disp-va-no" class="font-mono text-xl font-extrabold tracking-wider">5268080020314600</span>
+                                    <button onclick="copyToClipboard('disp-va-no', 'Nomor Virtual Account')" class="text-emerald-200 hover:text-white"><i class="fa-regular fa-copy text-lg"></i></button>
+                                </div>
+                            </div>
+                            <div class="border-t border-emerald-800/80 pt-2">
+                                <span class="text-xs text-emerald-300 block">Nama Virtual Account</span>
+                                <span id="disp-va-nama" class="font-semibold text-sm block truncate">203146 ESZPLG27 NUTRICARE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 6: PERWAKILAN YAYASAN (PIC) -->
+                <div id="tabContent-perwakilan" class="tab-pane hidden">
+                    <h4 class="font-bold text-slate-800 dark:text-white flex items-center gap-2 mb-2">
+                        <i class="fa-solid fa-user-check text-emerald-600"></i> Perwakilan Yayasan di SPPG (Pemegang Account VA)
+                    </h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">
+                        Penanggung jawab resmi yang memegang akun Virtual Account dan transaksi operasional SPPG.
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Nama Perwakilan / PIC</span>
+                            <span id="disp-pic-nama" class="font-bold text-slate-900 dark:text-white text-base block mt-1">Opik Taopikurahman</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">NIK</span>
+                            <div class="flex items-center justify-between mt-1">
+                                <span id="disp-pic-nik" class="font-mono font-bold text-slate-900 dark:text-white">3273302111680001</span>
+                                <button onclick="copyToClipboard('disp-pic-nik', 'NIK Perwakilan')" class="text-slate-400 hover:text-emerald-600"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">Email Aktif</span>
+                            <span id="disp-pic-email" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1 truncate">taufiqurrohman.taufiqurrohman@gmail.com</span>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-900/50 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <span class="text-xs text-slate-500 dark:text-slate-400 block">No. HP / WhatsApp</span>
+                            <span id="disp-pic-hp" class="font-semibold text-slate-800 dark:text-slate-200 block mt-1">085314261714</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM EDIT PROFIL (TOGGLED) -->
+                <div id="formEditProfileContainer" class="hidden border-t-2 border-emerald-500 pt-6 mt-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h4 class="font-bold text-slate-900 dark:text-white text-base flex items-center gap-2">
+                            <i class="fa-solid fa-pen-to-square text-emerald-600"></i> Form Edit Identitas &amp; Mitra SPPG
+                        </h4>
+                        <button onclick="toggleEditProfileForm(false)" class="text-xs text-slate-500 hover:underline">Batal Edit</button>
+                    </div>
+
+                    <form id="editProfileForm" onsubmit="handleSaveProfile(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">ID SPPG</label>
+                                <input type="text" id="edit_sppg_id" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Kode SPPG</label>
+                                <input type="text" id="edit_sppg_kode" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Status Operasional</label>
+                                <select id="edit_sppg_status" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                                    <option value="Beroperasi">Beroperasi</option>
+                                    <option value="Rencana">Rencana</option>
+                                    <option value="Non-Aktif">Non-Aktif</option>
+                                </select>
+                            </div>
+                            <div class="sm:col-span-2">
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Nama SPPG</label>
+                                <input type="text" id="edit_sppg_nama" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Nama Kasatpel</label>
+                                <input type="text" id="edit_kasatpel_nama" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Nama Yayasan</label>
+                                <input type="text" id="edit_yayasan_nama" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">No. Rekening</label>
+                                <input type="text" id="edit_bank_norek" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">No. Virtual Account</label>
+                                <input type="text" id="edit_va_no" class="w-full p-2 bg-slate-50 dark:bg-slate-900 border rounded text-xs">
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end gap-2 pt-2">
+                            <button type="button" onclick="toggleEditProfileForm(false)" class="px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs rounded-lg font-semibold">Batal</button>
+                            <button type="submit" class="px-4 py-2 bg-emerald-600 text-white text-xs rounded-lg font-semibold shadow">Simpan Perubahan</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="px-6 py-3 bg-slate-50 dark:bg-slate-900/80 border-t border-slate-200 dark:border-slate-700 flex justify-between items-center">
+                <button id="btnToggleEditProfile" onclick="toggleEditProfileForm(true)" class="text-xs text-emerald-700 dark:text-emerald-400 font-semibold hover:underline flex items-center gap-1">
+                    <i class="fa-solid fa-pen"></i> Mode Edit Profil
+                </button>
+                <div class="flex items-center space-x-2">
+                    <button onclick="closeProfileModal()" class="px-4 py-2 bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 text-slate-700 dark:text-slate-200 text-xs font-bold rounded-xl transition">
+                        Tutup
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ==================== MODAL TAMBAH / EDIT LINK SITUS ==================== -->
+    <div id="modalSite" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 w-full max-w-lg overflow-hidden">
+            <div class="px-6 py-4 bg-slate-900 text-white flex justify-between items-center">
+                <h3 id="modalSiteTitle" class="font-bold text-base">Edit Link Portal</h3>
+                <button onclick="closeModal('modalSite')" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <form id="siteForm" onsubmit="handleSaveSite(event)" class="p-6 space-y-4">
+                <input type="hidden" id="siteId" value="13">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Nama Situs / Portal</label>
+                    <input type="text" id="siteName" required="" class="w-full p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm" placeholder="Contoh: SIPGN Sign">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">URL / Link Web</label>
+                    <input type="url" id="siteUrl" required="" class="w-full p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm" placeholder="https://...">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Kategori</label>
+                        <select id="siteCategory" class="w-full p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm">
+                            <option value="UTAMA">Utama &amp; Keuangan</option>
+                            <option value="SIPGN">Sistem SIPGN</option>
+                            <option value="SDM">SDM &amp; Operasional</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Icon FontAwesome</label>
+                        <input type="text" id="siteIcon" class="w-full p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm" placeholder="fa-globe">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Deskripsi Singkat</label>
+                    <textarea id="siteDesc" rows="2" class="w-full p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg text-sm" placeholder="Penjelasan fungsi portal..."></textarea>
+                </div>
+                <div class="flex justify-end gap-2 pt-2">
+                    <button type="button" onclick="closeModal('modalSite')" class="px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-bold rounded-lg">Batal</button>
+                    <button type="submit" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg shadow">Simpan Portal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- ==================== MODAL DUMMY PETUGAS & KERJASAMA ==================== -->
+    <div id="modalPetugas" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 w-full max-w-md p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-base text-slate-800 dark:text-white flex items-center gap-2">
+                    <i class="fa-solid fa-user-shield text-emerald-600"></i> Menu Data Petugas
+                </h3>
+                <button onclick="closeModal('modalPetugas')" class="text-slate-400"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <p class="text-xs text-slate-500 mb-4">Daftar Petugas SPPG Bandung Majalaya Wangisagara 2:</p>
+            <div class="space-y-2 text-xs">
+                <div class="p-2.5 bg-slate-50 dark:bg-slate-900 rounded-lg flex justify-between">
+                    <span><strong>Taufik Hidayatulloh</strong> (Kasatpel/Ka SPPG)</span>
+                    <span class="text-emerald-600 font-medium">Aktif</span>
+                </div>
+                <div class="p-2.5 bg-slate-50 dark:bg-slate-900 rounded-lg flex justify-between">
+                    <span><strong>Opik Taopikurahman</strong> (PIC Yayasan / VA)</span>
+                    <span class="text-emerald-600 font-medium">Aktif</span>
+                </div>
+            </div>
+            <button onclick="closeModal('modalPetugas')" class="w-full mt-4 py-2 bg-slate-200 dark:bg-slate-700 rounded-lg text-xs font-bold">Tutup</button>
+        </div>
+    </div>
+
+    <div id="modalKerjasama" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 w-full max-w-md p-6">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-base text-slate-800 dark:text-white flex items-center gap-2">
+                    <i class="fa-solid fa-handshake text-emerald-600"></i> Menu Kerjasama Yayasan
+                </h3>
+                <button onclick="closeModal('modalKerjasama')" class="text-slate-400"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <p class="text-xs text-slate-500 mb-4">Detail Dokumen Kerjasama BGN &amp; Yayasan Nutricare Sehat Nusantara:</p>
+            <div class="space-y-2 text-xs">
+                <div class="p-2.5 bg-slate-50 dark:bg-slate-900 rounded-lg">
+                    <strong>Pihak Pertama:</strong> Badan Gizi Nasional (BGN)
+                </div>
+                <div class="p-2.5 bg-slate-50 dark:bg-slate-900 rounded-lg">
+                    <strong>Pihak Kedua:</strong> Yayasan Nutricare Sehat Nusantara
+                </div>
+                <div class="p-2.5 bg-slate-50 dark:bg-slate-900 rounded-lg">
+                    <strong>Status Kerjasama:</strong> Aktif &amp; Terverifikasi (2025/2026)
+                </div>
+            </div>
+            <button onclick="closeModal('modalKerjasama')" class="w-full mt-4 py-2 bg-slate-200 dark:bg-slate-700 rounded-lg text-xs font-bold">Tutup</button>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // ==================== INITIAL DEFAULT DATA ====================
+        const DEFAULT_PROFILES = {
+            sppg: {
+                id: "ESZPLG27",
+                baNo: "159/BA/VERVAL/JAKARTA/IX/2025",
+                baTgl: "20-09-2025",
+                status: "Beroperasi",
+                tglOps: "27-09-2025",
+                kode: "32.04.33.2002.10",
+                nama: "SPPG Bandung Majalaya Wangisagara 2",
+                prov: "JAWA BARAT",
+                kab: "BANDUNG",
+                kec: "MAJALAYA",
+                des: "WANGISAGARA",
+                alamat: "Jl. Wangisagara, Cikawao, Kec. Majalaya, Kabupaten Bandung, Jawa Barat 40382",
+                kodePos: "40382",
+                lat: "-7.081384267510724",
+                long: "107.73945338102725",
+                jenisBangunan: "Rumah Toko (Ruko)",
+                jenisSPPG: "SPPG Mitra"
+            },
+            kasatpel: {
+                nama: "Taufik Hidayatulloh",
+                email: "wangisagarasppg@gmail.com",
+                hp: "085135134430"
+            },
+            instansi: {
+                jenis: "Yayasan",
+                nama: "Nutricare Sehat Nusantara",
+                pimpinan: "Dedeh",
+                hp: "081221843881",
+                email: "nutricaresehatnusantara@gmail.com",
+                aset: ["Lahan", "Alat Masak", "Bangunan", "Alat Makan", "Tenaga Kerja (Relawan)", "Kendaraan"],
+                prov: "JAWA BARAT",
+                kab: "KOTA BANDUNG",
+                kec: "GEDEBAGE",
+                des: "CIMINCRANG",
+                alamat: "Jl.Cimincrang Rancasari Rt 003 Rw 004",
+                kodePos: "40295"
+            },
+            yayasan: {
+                nama: "Yayasan Nutricare Sehat Nusantara",
+                npwp: "1000000003423280",
+                prov: "JAWA BARAT",
+                kab: "KOTA BANDUNG",
+                kec: "GEDEBAGE",
+                des: "CIMINCRANG",
+                alamat: "Jl. Cimincrang,. Rancasagatan, Rt. 003/ Rw. 004, Kelurahan Cimincrang, Kecamatan Gedebage, Kota Bandung 40294, Paseh, Kabupaten Bandung, Jawa Barat",
+                kodePos: "40294",
+                email: "nutricaresehatnusantara@gmail.com",
+                hp: "081221843881"
+            },
+            bank: {
+                namaBank: "BANK BNI",
+                noRekening: "5268080020314600",
+                pemilikRekening: "yayasan Nutricare Sehat Nusantara",
+                vaBank: "BANK BNI",
+                noVA: "5268080020314600",
+                namaVA: "203146 ESZPLG27 NUTRICARE"
+            },
+            perwakilan: {
+                nama: "Opik Taopikurahman",
+                nik: "3273302111680001",
+                email: "taufiqurrohman.taufiqurrohman@gmail.com",
+                hp: "085314261714"
+            }
+        };
+
+        const DEFAULT_SITES = [
+            { id: '1', name: 'BNIDirect', category: 'UTAMA', url: 'https://bnidirect.bni.co.id', icon: 'fa-building-columns', desc: 'Layanan internet banking transaksi keuangan SPPG BNI Direct.', pinned: true },
+            { id: '2', name: 'Dashboard BGN', category: 'UTAMA', url: 'https://bgn.go.id', icon: 'fa-chart-pie', desc: 'Portal utama pemantauan kinerja & program Badan Gizi Nasional.', pinned: true },
+            { id: '3', name: 'Biro SDMO BGN', category: 'SDM', url: 'https://sdm.bgn.go.id', icon: 'fa-users-gear', desc: 'Manajemen Sumber Daya Manusia dan Organisasi BGN.', pinned: false },
+            { id: '4', name: 'Webmail BGN', category: 'UTAMA', url: 'https://mail.bgn.go.id', icon: 'fa-envelope-open-text', desc: 'Email kedinasan resmi personel Badan Gizi Nasional.', pinned: true },
+            { id: '5', name: 'MyASN BKN', category: 'SDM', url: 'https://myasn.bkn.go.id', icon: 'fa-id-card-clip', desc: 'Layanan kepegawaian ASN BKN terpadu.', pinned: false },
+            { id: '6', name: 'SIPGN Sign', category: 'SIPGN', url: 'https://sign.sipgn.go.id', icon: 'fa-file-signature', desc: 'Layanan Tanda Tangan Digital (TTE) Dokumen SIPGN.', pinned: true },
+            { id: '7', name: 'Portal SIPGN', category: 'SIPGN', url: 'https://sipgn.go.id', icon: 'fa-diagram-project', desc: 'Sistem Informasi Pemantauan Gizi Nasional Terpadu.', pinned: true },
+            { id: '8', name: 'POP SIPGN', category: 'SIPGN', url: 'https://pop.sipgn.go.id', icon: 'fa-boxes-stacked', desc: 'Pusat Operasional Pelayanan & Distribusi Gizi.', pinned: false },
+            { id: '9', name: 'MPM SIPGN', category: 'SIPGN', url: 'https://mpm.sipgn.go.id', icon: 'fa-chart-line', desc: 'Monitoring & Pemantauan Mutu SPPG.', pinned: false },
+            { id: '10', name: 'Manajemen Tenaga Kerja', category: 'SDM', url: 'https://tenagakerja.bgn.go.id', icon: 'fa-user-nurse', desc: 'Portal data relawan, koki, dan staf operasional SPPG.', pinned: false },
+            { id: '11', name: 'Karegjabar Zoom', category: 'SDM', url: 'https://zoom.us', icon: 'fa-video', desc: 'Rapat koordinasi virtual Kanreg Jabar & SPPG.', pinned: false },
+            { id: '12', name: 'SIPP BPJS TK', category: 'SDM', url: 'https://sipp.bpjsketenagakerjaan.go.id', icon: 'fa-hand-holding-medical', desc: 'Sistem Informasi Pelaporan Peserta BPJS Ketenagakerjaan.', pinned: false },
+            { id: '13', name: 'SIPGN Public', category: 'SIPGN', url: 'https://public.sipgn.go.id', icon: 'fa-globe', desc: 'Portal informasi publikasi program gizi nasional.', pinned: false },
+        ];
+
+        // State Management
+        let appData = {
+            profile: JSON.parse(localStorage.getItem('kasppg_profile')) || DEFAULT_PROFILES,
+            sites: JSON.parse(localStorage.getItem('kasppg_sites')) || DEFAULT_SITES,
+            currentCategory: 'ALL'
+        };
+
+        // Quotes Motivasi
+        const QUOTES = [
+            '"Integritas dan dedikasi adalah kunci utama pelayanan gizi terbaik bagi masyarakat."',
+            '"Setiap porsi makanan sehat yang disalurkan adalah investasi masa depan generasi bangsa."',
+            '"Kerja keras dan ketelitian hari ini membawa dampak sehat bagi jutaan anak Indonesia."',
+            '"Satu tim, satu tujuan: Menewujudkan kesetaraan gizi berkualitas untuk Majalaya Wangisagara."'
+        ];
+
+        // ==================== APP INITIALIZATION ====================
+        window.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            updateTimeGreeting();
+            renderSites();
+            loadProfileDataToUI();
+        });
+
+        // Theme Toggle Logic
+        function initTheme() {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('themeIcon').className = 'fa-solid fa-sun text-lg text-amber-400';
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.getElementById('themeIcon').className = 'fa-solid fa-moon text-lg text-slate-600';
+            }
+
+            document.getElementById('themeToggle').addEventListener('click', () => {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.theme = 'light';
+                    document.getElementById('themeIcon').className = 'fa-solid fa-moon text-lg text-slate-600';
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.theme = 'dark';
+                    document.getElementById('themeIcon').className = 'fa-solid fa-sun text-lg text-amber-400';
+                }
+            });
+        }
+
+        // Greeting & Time
+        function updateTimeGreeting() {
+            const hour = new Date().getHours();
+            let greeting = "Selamat Pagi";
+            if (hour >= 11 && hour < 15) greeting = "Selamat Siang";
+            else if (hour >= 15 && hour < 18) greeting = "Selamat Sore";
+            else if (hour >= 18 || hour < 4) greeting = "Selamat Malam";
+
+            document.getElementById('greetingTime').innerText = greeting;
+            document.getElementById('motivationQuote').innerText = QUOTES[Math.floor(Math.random() * QUOTES.length)];
+        }
+
+        // ==================== SITES RENDER & MANAGE ====================
+        function renderSites() {
+            const grid = document.getElementById('sitesGrid');
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            grid.innerHTML = '';
+
+            let filtered = appData.sites.filter(site => {
+                const matchCategory = appData.currentCategory === 'ALL' || site.category === appData.currentCategory;
+                const matchSearch = site.name.toLowerCase().includes(search) || site.desc.toLowerCase().includes(search);
+                return matchCategory && matchSearch;
+            });
+
+            // Sort pinned first
+            filtered.sort((a, b) => (b.pinned ? 1 : 0) - (a.pinned ? 1 : 0));
+
+            document.getElementById('siteCountBadge').innerText = filtered.length;
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-12 text-center text-slate-400">
+                        <i class="fa-solid fa-magnifying-glass text-3xl mb-2"></i>
+                        <p class="text-sm font-medium">Tidak ada portal atau aplikasi yang cocok.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(site => {
+                const card = document.createElement('div');
+                card.className = "bg-white dark:bg-slate-800 rounded-xl p-4 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition flex flex-col justify-between group relative";
+                
+                card.innerHTML = `
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-10 h-10 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold text-lg group-hover:bg-emerald-600 group-hover:text-white transition">
+                                    <i class="fa-solid ${site.icon || 'fa-globe'}"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-slate-800 dark:text-white leading-snug group-hover:text-emerald-600 transition">${site.name}</h3>
+                                    <span class="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">${site.category}</span>
+                                </div>
+                            </div>
+                            <button onclick="togglePin('${site.id}')" class="text-xs p-1 ${site.pinned ? 'text-amber-500' : 'text-slate-300 dark:text-slate-600 hover:text-amber-500'}">
+                                <i class="fa-solid fa-thumbtack"></i>
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 mt-1 mb-4">${site.desc}</p>
+                    </div>
+
+                    <div class="flex items-center justify-between border-t border-slate-100 dark:border-slate-700 pt-3 mt-auto">
+                        <a href="${site.url}" target="_blank" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition">
+                            <span>Buka Portal</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                        <div class="flex items-center space-x-1 opacity-80 group-hover:opacity-100 transition">
+                            <button onclick="editSite('${site.id}')" class="p-1.5 text-slate-400 hover:text-emerald-600 rounded"><i class="fa-solid fa-pen"></i></button>
+                            <button onclick="deleteSite('${site.id}')" class="p-1.5 text-slate-400 hover:text-red-600 rounded"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterCategory(cat) {
+            appData.currentCategory = cat;
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('bg-emerald-600', 'text-white', 'active');
+                btn.classList.add('bg-slate-100', 'dark:bg-slate-700', 'text-slate-600', 'dark:text-slate-300');
+            });
+            event.target.classList.remove('bg-slate-100', 'dark:bg-slate-700', 'text-slate-600', 'dark:text-slate-300');
+            event.target.classList.add('bg-emerald-600', 'text-white', 'active');
+            renderSites();
+        }
+
+        function togglePin(id) {
+            const site = appData.sites.find(s => s.id === id);
+            if (site) {
+                site.pinned = !site.pinned;
+                saveSites();
+                renderSites();
+            }
+        }
+
+        function openAddSiteModal() {
+            document.getElementById('siteId').value = '';
+            document.getElementById('siteForm').reset();
+            document.getElementById('modalSiteTitle').innerText = 'Tambah Link Portal';
+            openModal('modalSite');
+        }
+
+        function editSite(id) {
+            const site = appData.sites.find(s => s.id === id);
+            if (!site) return;
+            document.getElementById('siteId').value = site.id;
+            document.getElementById('siteName').value = site.name;
+            document.getElementById('siteUrl').value = site.url;
+            document.getElementById('siteCategory').value = site.category;
+            document.getElementById('siteIcon').value = site.icon || '';
+            document.getElementById('siteDesc').value = site.desc || '';
+            document.getElementById('modalSiteTitle').innerText = 'Edit Link Portal';
+            openModal('modalSite');
+        }
+
+        function handleSaveSite(e) {
+            e.preventDefault();
+            const id = document.getElementById('siteId').value;
+            const name = document.getElementById('siteName').value;
+            const url = document.getElementById('siteUrl').value;
+            const category = document.getElementById('siteCategory').value;
+            const icon = document.getElementById('siteIcon').value || 'fa-globe';
+            const desc = document.getElementById('siteDesc').value;
+
+            if (id) {
+                const index = appData.sites.findIndex(s => s.id === id);
+                if (index !== -1) appData.sites[index] = { ...appData.sites[index], name, url, category, icon, desc };
+            } else {
+                appData.sites.push({ id: Date.now().toString(), name, url, category, icon, desc, pinned: false });
+            }
+
+            saveSites();
+            renderSites();
+            closeModal('modalSite');
+            showToast('Portal berhasil disimpan!');
+        }
+
+        function deleteSite(id) {
+            if (confirm('Hapus link portal ini?')) {
+                appData.sites = appData.sites.filter(s => s.id !== id);
+                saveSites();
+                renderSites();
+                showToast('Portal dihapus.');
+            }
+        }
+
+        function saveSites() {
+            localStorage.setItem('kasppg_sites', JSON.stringify(appData.sites));
+        }
+
+
+        // ==================== PROFIL MITRA & IDENTITAS SPPG UI LOGIC ====================
+        function loadProfileDataToUI() {
+            const p = appData.profile;
+
+            // Display SPPG
+            document.getElementById('disp-sppg-id').innerText = p.sppg.id;
+            document.getElementById('disp-sppg-kode').innerText = p.sppg.kode;
+            document.getElementById('disp-sppg-status').innerText = p.sppg.status;
+            document.getElementById('disp-sppg-nama').innerText = p.sppg.nama;
+            document.getElementById('disp-sppg-ba-no').innerText = p.sppg.baNo;
+            document.getElementById('disp-sppg-ba-tgl').innerText = p.sppg.baTgl;
+            document.getElementById('disp-sppg-tgl-ops').innerText = p.sppg.tglOps;
+            document.getElementById('disp-sppg-jenis').innerText = `${p.sppg.jenisSPPG} / ${p.sppg.jenisBangunan}`;
+            document.getElementById('disp-sppg-alamat').innerText = p.sppg.alamat;
+            document.getElementById('disp-sppg-des').innerText = p.sppg.des;
+            document.getElementById('disp-sppg-kec').innerText = p.sppg.kec;
+            document.getElementById('disp-sppg-kab').innerText = p.sppg.kab;
+            document.getElementById('disp-sppg-prov').innerText = p.sppg.prov;
+            document.getElementById('disp-sppg-lat').innerText = p.sppg.lat;
+            document.getElementById('disp-sppg-long').innerText = p.sppg.long;
+            document.getElementById('linkGoogleMaps').href = `https://maps.google.com/?q=${p.sppg.lat},${p.sppg.long}`;
+
+            // Display Kasatpel
+            document.getElementById('disp-kasatpel-nama').innerText = p.kasatpel.nama;
+            document.getElementById('disp-kasatpel-email').innerText = p.kasatpel.email;
+            document.getElementById('disp-kasatpel-hp').innerText = p.kasatpel.hp;
+
+            // Display Instansi Mitra
+            document.getElementById('disp-mitra-jenis').innerText = p.instansi.jenis;
+            document.getElementById('disp-mitra-nama').innerText = p.instansi.nama;
+            document.getElementById('disp-mitra-pimpinan').innerText = p.instansi.pimpinan;
+            document.getElementById('disp-mitra-kontak').innerText = `${p.instansi.hp} | ${p.instansi.email}`;
+            document.getElementById('disp-mitra-alamat').innerText = `${p.instansi.alamat}, Kel. ${p.instansi.des}, Kec. ${p.instansi.kec}, ${p.instansi.kab}, ${p.instansi.prov} ${p.instansi.kodePos}`;
+
+            // Display Yayasan
+            document.getElementById('disp-yayasan-nama').innerText = p.yayasan.nama;
+            document.getElementById('disp-yayasan-npwp').innerText = p.yayasan.npwp;
+            document.getElementById('disp-yayasan-kontak').innerText = `${p.yayasan.hp} | ${p.yayasan.email}`;
+            document.getElementById('disp-yayasan-alamat').innerText = p.yayasan.alamat;
+
+            // Display Bank & VA
+            document.getElementById('disp-bank-nama').innerText = p.bank.namaBank;
+            document.getElementById('disp-bank-norek').innerText = p.bank.noRekening;
+            document.getElementById('disp-bank-pemilik').innerText = p.bank.pemilikRekening;
+            document.getElementById('disp-va-bank').innerText = p.bank.vaBank;
+            document.getElementById('disp-va-no').innerText = p.bank.noVA;
+            document.getElementById('disp-va-nama').innerText = p.bank.namaVA;
+
+            // Display Perwakilan PIC
+            document.getElementById('disp-pic-nama').innerText = p.perwakilan.nama;
+            document.getElementById('disp-pic-nik').innerText = p.perwakilan.nik;
+            document.getElementById('disp-pic-email').innerText = p.perwakilan.email;
+            document.getElementById('disp-pic-hp').innerText = p.perwakilan.hp;
+
+            // Pre-fill Edit Form
+            document.getElementById('edit_sppg_id').value = p.sppg.id;
+            document.getElementById('edit_sppg_kode').value = p.sppg.kode;
+            document.getElementById('edit_sppg_status').value = p.sppg.status;
+            document.getElementById('edit_sppg_nama').value = p.sppg.nama;
+            document.getElementById('edit_kasatpel_nama').value = p.kasatpel.nama;
+            document.getElementById('edit_yayasan_nama').value = p.yayasan.nama;
+            document.getElementById('edit_bank_norek').value = p.bank.noRekening;
+            document.getElementById('edit_va_no').value = p.bank.noVA;
+        }
+
+        function switchProfileTab(tabKey) {
+            document.querySelectorAll('.profile-tab').forEach(btn => {
+                btn.classList.remove('bg-white', 'dark:bg-slate-800', 'text-emerald-600', 'dark:text-emerald-400', 'shadow-sm', 'active');
+                btn.classList.add('text-slate-600', 'dark:text-slate-400');
+            });
+
+            const activeBtn = document.getElementById(`tabBtn-${tabKey}`);
+            if (activeBtn) {
+                activeBtn.classList.add('bg-white', 'dark:bg-slate-800', 'text-emerald-600', 'dark:text-emerald-400', 'shadow-sm', 'active');
+            }
+
+            document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.add('hidden'));
+            const targetPane = document.getElementById(`tabContent-${tabKey}`);
+            if (targetPane) targetPane.classList.remove('hidden');
+        }
+
+        function openProfileModal() {
+            openModal('modalProfile');
+        }
+
+        function closeProfileModal() {
+            closeModal('modalProfile');
+            toggleEditProfileForm(false);
+        }
+
+        function toggleEditProfileForm(show) {
+            const container = document.getElementById('formEditProfileContainer');
+            if (show) {
+                container.classList.remove('hidden');
+                container.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                container.classList.add('hidden');
+            }
+        }
+
+        function handleSaveProfile(e) {
+            e.preventDefault();
+            appData.profile.sppg.id = document.getElementById('edit_sppg_id').value;
+            appData.profile.sppg.kode = document.getElementById('edit_sppg_kode').value;
+            appData.profile.sppg.status = document.getElementById('edit_sppg_status').value;
+            appData.profile.sppg.nama = document.getElementById('edit_sppg_nama').value;
+            appData.profile.kasatpel.nama = document.getElementById('edit_kasatpel_nama').value;
+            appData.profile.yayasan.nama = document.getElementById('edit_yayasan_nama').value;
+            appData.profile.bank.noRekening = document.getElementById('edit_bank_norek').value;
+            appData.profile.bank.noVA = document.getElementById('edit_va_no').value;
+
+            localStorage.setItem('kasppg_profile', JSON.stringify(appData.profile));
+            loadProfileDataToUI();
+            toggleEditProfileForm(false);
+            showToast('Profil SPPG Berhasil Diperbarui!');
+        }
+
+        // Copy Helper
+        function copyToClipboard(elementId, label) {
+            const text = document.getElementById(elementId).innerText;
+            const input = document.createElement('textarea');
+            input.value = text;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            showToast(`${label} (${text}) tersalin!`);
+        }
+
+
+        // ==================== UTILITY & MODALS ====================
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+        }
+
+        function toggleUserDropdown() {
+            document.getElementById('userDropdown').classList.toggle('hidden');
+        }
+
+        function toggleDataDropdown() {
+            document.getElementById('dataDropdown').classList.toggle('hidden');
+        }
+
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = "bg-slate-900 text-white px-4 py-2.5 rounded-xl shadow-xl text-xs font-semibold flex items-center space-x-2 border border-slate-700 animate-bounce pointer-events-auto";
+            toast.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i> <span>${message}</span>`;
+            
+            const container = document.getElementById('toastContainer');
+            container.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        // Export/Import JSON Data
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appData, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", `KASPPG_Workspace_ESZPLG27_${new Date().toISOString().slice(0,10)}.json`);
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            downloadAnchor.remove();
+            showToast('Data berhasil diekspor JSON');
+        }
+
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const imported = JSON.parse(e.target.result);
+                    if (imported.sites && imported.profile) {
+                        appData = imported;
+                        localStorage.setItem('kasppg_sites', JSON.stringify(appData.sites));
+                        localStorage.setItem('kasppg_profile', JSON.stringify(appData.profile));
+                        renderSites();
+                        loadProfileDataToUI();
+                        showToast('Data berhasil diimpor!');
+                    } else {
+                        alert('Format JSON tidak valid!');
+                    }
+                } catch (err) {
+                    alert('Gagal membaca file JSON.');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function resetData() {
+            if (confirm('Kembalikan data ke awal (default)?')) {
+                localStorage.removeItem('kasppg_sites');
+                localStorage.removeItem('kasppg_profile');
+                appData.sites = DEFAULT_SITES;
+                appData.profile = DEFAULT_PROFILES;
+                renderSites();
+                loadProfileDataToUI();
+                showToast('Data dikembalikan ke default.');
+            }
+        }
+
+        function handleLogout() {
+            if (confirm('Keluar dari KASPPG Workspace?')) {
+                showToast('Anda telah keluar.');
+            }
+        }
+    </script>
+
+</body></html>
